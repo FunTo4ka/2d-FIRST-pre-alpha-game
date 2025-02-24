@@ -1,98 +1,83 @@
-#2D-FIRST-PRE-ALPHA-GAME
+# 2D-FIRST-PRE-ALPHA-GAME
 
-2D-FIRST-PRE-ALPHA-GAME — это простая 2D игра с видом сверху, созданная в рамках обучения программированию на C++ с использованием библиотеки SFML. Игра находится на ранней стадии разработки (pre-alpha), поэтому функционал может быть ограниченным, а баги — присутствовать.
+2D-FIRST-PRE-ALPHA-GAME is a simple 2D top-down game created as part of learning C++ programming using the SFML library. The game is in the early development stage (pre-alpha), so functionality may be limited, and bugs may be present.
 
-Как запустить игру
-Требования
-Компилятор C++ (например, g++ или MinGW).
+## How to Run the Game
 
-Установленная библиотека SFML.
+### Requirements
 
-Инструкции для Linux
-Установите SFML:
+- C++ compiler (e.g., g++ or MinGW)
+- Installed SFML library
 
-bash
-Copy
-sudo apt-get install libsfml-dev
-Клонируйте репозиторий или скачайте исходный код.
+### Instructions for Linux
 
-Перейдите в папку с проектом:
+1. Install SFML:
 
-bash
-Copy
-cd путь/к/проекту
-Скомпилируйте проект:
+    ```bash
+    sudo apt-get install libsfml-dev
+    ```
 
-bash
-Copy
-g++ main.cpp Player.cpp Enemy.cpp Fireball.cpp -o game -lsfml-graphics -lsfml-window -lsfml-system
-Запустите игру:
+2. Clone the repository or download the source code.
 
-bash
-Copy
-./game
-Инструкции для Windows
-Скачайте и установите SFML с официального сайта.
+    ```bash
+    git clone https://github.com/your-username/2D-FIRST-PRE-ALPHA-GAME.git
+    ```
 
-Убедитесь, что компилятор (например, MinGW) настроен для работы с SFML.
+3. Navigate to the project folder:
 
-Клонируйте репозиторий или скачайте исходный код.
+    ```bash
+    cd path/to/project
+    ```
 
-Перейдите в папку с проектом:
+4. Compile the project:
 
-bash
-Copy
-cd путь/к/проекту
-Скомпилируйте проект:
+    ```bash
+    g++ main.cpp Player.cpp Enemy.cpp Fireball.cpp -o game -lsfml-graphics -lsfml-window -lsfml-system
+    ```
 
-bash
-Copy
-g++ main.cpp Player.cpp Enemy.cpp Fireball.cpp -o game.exe -IC:\SFML\include -LC:\SFML\lib -lsfml-graphics -lsfml-window -lsfml-system
-Запустите игру:
+5. Run the game:
 
-bash
-Copy
-game.exe
-Элементы управления
-W: Движение вверх.
+    ```bash
+    ./game
+    ```
 
-A: Движение влево.
+### Instructions for Windows
 
-S: Движение вниз.
+1. Download and install SFML from the official website.
 
-D: Движение вправо.
+2. Ensure the compiler (e.g., MinGW) is configured to work with SFML.
 
-F: Вызов огненного шара (атака).
+3. Clone the repository or download the source code.
 
-Цель игры
-Выживайте как можно дольше, избегая врагов.
+4. Navigate to the project folder:
 
-Уничтожайте врагов с помощью огненных шаров.
+    ```bash
+    cd path/to/project
+    ```
 
-Игра находится в стадии разработки, поэтому цель и механики могут измениться в будущем.
+5. Compile the project:
 
-Особенности
-Игра находится на стадии pre-alpha, поэтому возможны баги и неполный функционал.
+    ```bash
+    g++ main.cpp Player.cpp Enemy.cpp Fireball.cpp -o game.exe -IC:\SFML\include -LC:\SFML\lib -lsfml-graphics -lsfml-window -lsfml-system
+    ```
 
-Проект создан для обучения и демонстрации базовых возможностей SFML и C++.
+6. Run the game:
 
-Будущие улучшения
-Добавление анимаций для игрока, врагов и огненных шаров.
+    ```bash
+    game.exe
+    ```
 
-Реализация системы здоровья и урона.
+## Controls
 
-Добавление новых врагов и уровней сложности.
+- **W**: Move up
+- **A**: Move left
+- **S**: Move down
+- **D**: Move right
+- **F**: Cast fireball (attack)
 
-Улучшение интерфейса и добавление меню.
+## Objective
 
-Лицензия
-Этот проект распространяется под лицензией MIT. Вы можете свободно использовать, изменять и распространять код.
+- Survive as long as possible while avoiding enemies.
+- Destroy enemies using fireballs.
 
-Контакты
-Если у вас есть вопросы или предложения, свяжитесь со мной:
-
-Email: funto4ka@gmail.com
-
-GitHub: https://github.com/FunTo4ka
-
-Примечание: Игра находится на ранней стадии разработки, поэтому возможны ошибки и неполный функционал. Спасибо за понимание!
+Note: The game is in development, so objectives and mechanics may change in the future.

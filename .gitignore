@@ -1,0 +1,60 @@
+# Build and binary files
+/build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# CMake-generated files
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/cmake_install.cmake
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.code-workspace
+
+# Logs and debug files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+# Dependency folders
+/deps/
+/vendor/
+/third_party/
+
+# SDL2, OpenGL, and library-generated artifacts
+*.out
+*.app
+*.framework
+
+# Game assets (if generated dynamically)
+*.psd
+*.blend1
+*.fbx
+*.mp3
+*.wav
+*.ogg
+
+# Save and temporary game data
+/saves/
+/cache/
+
+# Clang and other compiler artifacts
+*.d
+*.gcda
+*.gcno
+*.gcov
